@@ -17,8 +17,8 @@ version = Version [0,2,1] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\bin"
-libdir     = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-7.10.2\\fsnotify-0.2.1-Afb1C6kBtPnB078YuUZH97"
-datadir    = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\x86_64-windows-ghc-7.10.2\\fsnotify-0.2.1"
+libdir     = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\i386-windows-ghc-7.10.2\\fsnotify-0.2.1-Afb1C6kBtPnB078YuUZH97"
+datadir    = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\i386-windows-ghc-7.10.2\\fsnotify-0.2.1"
 libexecdir = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\fsnotify-0.2.1-Afb1C6kBtPnB078YuUZH97"
 sysconfdir = "C:\\Users\\Ferdinand\\AppData\\Roaming\\cabal\\etc"
 

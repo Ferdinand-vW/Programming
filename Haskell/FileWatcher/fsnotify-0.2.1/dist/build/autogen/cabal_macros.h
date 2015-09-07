@@ -70,12 +70,12 @@
   (major1) == 3 && (major2) <  1 || \
   (major1) == 3 && (major2) == 1 && (minor) <= 4)
 
-/* tool gcc-4.6.3 */
-#define TOOL_VERSION_gcc "4.6.3"
+/* tool gcc-4.5.2 */
+#define TOOL_VERSION_gcc "4.5.2"
 #define MIN_TOOL_VERSION_gcc(major1,major2,minor) (\
   (major1) <  4 || \
-  (major1) == 4 && (major2) <  6 || \
-  (major1) == 4 && (major2) == 6 && (minor) <= 3)
+  (major1) == 4 && (major2) <  5 || \
+  (major1) == 4 && (major2) == 5 && (minor) <= 2)
 
 /* tool ghc-7.10.2 */
 #define TOOL_VERSION_ghc "7.10.2"
@@ -126,12 +126,12 @@
   (major1) == 1 && (major2) <  22 || \
   (major1) == 1 && (major2) == 22 && (minor) <= 0)
 
-/* tool strip-2.22 */
-#define TOOL_VERSION_strip "2.22"
+/* tool strip-2.20 */
+#define TOOL_VERSION_strip "2.20"
 #define MIN_TOOL_VERSION_strip(major1,major2,minor) (\
   (major1) <  2 || \
-  (major1) == 2 && (major2) <  22 || \
-  (major1) == 2 && (major2) == 22 && (minor) <= 0)
+  (major1) == 2 && (major2) <  20 || \
+  (major1) == 2 && (major2) == 20 && (minor) <= 0)
 
 #define CURRENT_PACKAGE_KEY "fsnot_Afb1C6kBtPnB078YuUZH97"
 
